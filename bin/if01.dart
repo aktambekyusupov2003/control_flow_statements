@@ -9,13 +9,10 @@
  */
 int func(int a) {
   if (a > 0) {
-    return a += 1;
+    a += 1;
+    return a;
   }
-
-  if (a < 0) {
-    return a = a;
-  }
-  return a;
+  return 156156;
 }
 
 void main() {
